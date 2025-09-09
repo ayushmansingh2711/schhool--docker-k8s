@@ -8,6 +8,10 @@ sudo docker build -t school-management .
  your ip:1144
 
 
+ This project live with Jenkins-pipeline 
+
+ Jenkins file is in this repo
+
 
 
 
