@@ -15,6 +15,12 @@ sudo docker build -t school-management .
 
 
 
+ 
+<img width="1824" height="980" alt="Screenshot from 2025-09-09 16-10-20" src="https://github.com/user-attachments/assets/e877a08f-ebc9-4360-958c-47bb2d5cd4c6" />
+
+
+
+
 
 # Welcome to your project
 
