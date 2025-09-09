@@ -5,7 +5,7 @@ sudo docker build -t school-management .
 
  sudo docker run -d -p 1144:80 school-management  
 
- your ip:8080
+ your ip:1144
 
 
 
