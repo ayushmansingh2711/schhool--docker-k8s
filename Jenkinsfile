@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     sh 'docker rm -f  myjenkinscon'
-                    sh 'docker run -d --name myjenkinscon -p 4422:80 ayushman2711/jekins-project'
+                    sh 'docker run -d --name myjenkinscon -p 5522:80 ayushman2711/jekins-project'
                 }
             }
         }
@@ -31,7 +31,7 @@ pipeline {
         stage('Post Deployment Testing') {
             steps {
                 script {
-                    sh 'curl -I http://localhost:4422'
+                    sh 'curl -I http://localhost:5522'
                 }
             }
         }
